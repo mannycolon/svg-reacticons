@@ -1,0 +1,11 @@
+{
+  "name": "svg-reacticons",
+  "version": "0.1.0",
+  "description": "React SVG icons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "colonmanuel7@gmail.com, Manny Colon",
+  "license": "MIT"
+}
