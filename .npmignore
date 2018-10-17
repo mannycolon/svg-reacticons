@@ -1,3 +1,7 @@
 node_modules
 src
 .vscode
+examples/
+.editorconfig
+.eslintrc
+webpack.config.js
