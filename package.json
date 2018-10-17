@@ -1,14 +1,14 @@
 {
   "name": "svg-reacticons",
-  "version": "0.1.0",
-  "description": "React SVG icons.",
-  "main": "dist/bundle.js",
+  "version": "0.2.0",
+  "description": "This package provides SVG icons packaged as a set of React components.",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
-    "build": "babel src -d dist --copy-files",
-    "prebuild": "rm -rf ./dist",
-    "prepare": "if [ ! -d './dist/' ]; then npm run build; fi",
+    "build": "babel src -d icons --copy-files",
+    "prebuild": "rm -rf ./icons",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "repository": {
@@ -43,8 +43,8 @@
     "react-dom": "^16.5.2"
   },
   "keywords": [
-    "translationCore",
-    "UI",
-    "toolkit"
+    "react",
+    "svg",
+    "icons"
   ]
 }
