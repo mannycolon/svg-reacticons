@@ -1,10 +1,7 @@
 import React from 'react'
 import { render} from 'react-dom'
-import {
-  SmartphoneOutline,
-  TruckOutline,
-  MicrowaveOutline
-} from '../../src'
+import MicrowaveOutline from '../../dist/MicrowaveOutline'
+import {SmartphoneOutline, TruckOutline} from '../../src'
 
 import './styles.css'
 
