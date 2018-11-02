@@ -14,16 +14,16 @@ npm install svg-reacticons
 
 When importing an icon, keep in mind that the names of the icons are `PascalCase`, for instance:
 
-- `microwave` is exposed as `svg-reacticons/icons/MicrowaveOutline`
-- `truck` is exposed as `svg-reacticons/icons/TruckOutline`
+- `microwave` is exposed as `svg-reacticons/icons/MicrowaveOutlined`
+- `truck` is exposed as `svg-reacticons/icons/TruckOutlined`
 
 ## Imports
 
 - If your environment doesn't support tree-shaking, the **recommended** way to import the icons is the following:
 
 ```jsx
-import MicrowaveIcon from '@material-ui/icons/MicrowaveOutline';
-import TruckIcon from '@material-ui/icons/TruckOutline';
+import MicrowaveIcon from '@material-ui/icons/MicrowaveOutlined';
+import TruckIcon from '@material-ui/icons/TruckOutlined';
 ```
 
 - If your environment support tree-shaking you can also import the icons this way:
