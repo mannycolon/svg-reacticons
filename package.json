@@ -2,12 +2,13 @@
   "name": "svg-reacticons",
   "version": "0.2.0",
   "description": "This package provides SVG icons packaged as a set of React components.",
-  "main": "./dist/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
-    "build": "babel src -d icons --copy-files",
-    "prebuild": "rm -rf ./icons",
+    "build": "babel src -d lib/ --copy-files",
+    "build:watch": "babel src -d lib/ --copy-files --watch",
+    "prebuild": "rm -rf ./lib",
     "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
