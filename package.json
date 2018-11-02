@@ -1,6 +1,6 @@
 {
   "name": "svg-reacticons",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "This package provides SVG icons packaged as a set of React components.",
   "main": "./lib/index.js",
   "scripts": {
