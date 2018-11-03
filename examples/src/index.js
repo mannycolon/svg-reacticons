@@ -50,15 +50,108 @@ import {
   WordpressColored,
   YelpColored,
   YouTubeColored,
+  SocialMediaOutlined,
+  RoomKeyFilled,
+  RoomKeyOutlined,
+  HeartFilled,
+  HeartColored,
+  ComputerScreenColored,
+  ComputerScreenOutlined,
+  ComputerScreenFilled,
+  MapOutlined,
+  MapFilled,
+  MapColored,
+  NavigationFilled,
+  NavigationOutlined,
+  NavigationColored,
+  AwardFilled,
+  AwardOutlined,
+  AwardColored,
+  TvFilled,
+  TvOutlined,
+  TvColored,
+  TaxiColored,
+  TaxiFilled,
+  TaxiOutlined,
+  ConfigurationColored,
+  ConfigurationFilled,
+  ConfigurationOutlined,
+  ParkTreeColored,
+  ParkTreeOutlined,
+  ParkTreeFilled,
+  TrashColored,
+  TrashOutlined,
+  TrashFilled,
+  ChatColored,
+  ChatFilled,
+  ChatOutlined,
+  PencilColored,
+  PencilFilled,
+  PencilOutlined,
+  CameraColored,
+  CameraFilled,
+  CameraOutlined,
+  GraduationCapColored,
+  GraduationCapOutlined,
+  GraduationCapFilled,
+  ColorPaletteColored,
+  ColorPaletteFilled,
+  ColorPaletteOutlined,
 } from '../../lib'
 
 import './styles.css'
-// <YouTubeColored color="blue"/>
+// <GraduationCapFilled color="blue"/>
 const App = () => (
   <div>
     <h1>Icon Demos</h1>
+    <ColorPaletteOutlined/>
+    <ColorPaletteFilled/>
+    <ColorPaletteColored/>
+    <GraduationCapFilled/>
+    <GraduationCapOutlined/>
+    <GraduationCapColored/>
+    <CameraOutlined/>
+    <CameraFilled/>
+    <CameraColored/>
+    <PencilOutlined/>
+    <PencilFilled/>
+    <PencilColored/>
+    <ChatOutlined/>
+    <ChatFilled/>
+    <ChatColored/>
+    <TrashFilled/>
+    <TrashOutlined/>
+    <TrashColored/>
+    <ParkTreeFilled/>
+    <ParkTreeOutlined/>
+    <ConfigurationOutlined/>
+    <ConfigurationFilled/>
+    <ConfigurationColored/>
+    <ParkTreeColored/>
+    <TaxiOutlined/>
+    <TaxiFilled/>
+    <TaxiColored/>
+    <TvColored/>
+    <TvOutlined/>
+    <TvFilled/>
+    <AwardColored/>
+    <AwardOutlined/>
+    <AwardFilled/>
+    <NavigationColored/>
+    <NavigationOutlined/>
+    <NavigationFilled/>
+    <MapColored/>
+    <MapFilled/>
+    <MapOutlined/>
+    <ComputerScreenFilled/>
+    <ComputerScreenOutlined/>
+    <ComputerScreenColored/>
+    <HeartColored/>
+    <HeartFilled/>
+    <RoomKeyOutlined/>
+    <RoomKeyFilled/>
+    <SocialMediaOutlined/>
     <InstagramColored/>
-
     <YouTubeColored/>
     <YelpColored/>
     <WordpressColored/>
