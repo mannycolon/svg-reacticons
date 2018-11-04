@@ -14,8 +14,8 @@ npm install svg-reacticons
 
 When importing an icon, keep in mind that the names of the icons are `PascalCase`, for instance:
 
-- `microwave` is exposed as `svg-reacticons/icons/MicrowaveOutlined`
-- `truck` is exposed as `svg-reacticons/icons/TruckOutlined`
+- `microwave` is exposed as `svg-reacticons/lib/MicrowaveOutlined`
+- `truck` is exposed as `svg-reacticons/lib/TruckOutlined`
 
 ## Imports
 
